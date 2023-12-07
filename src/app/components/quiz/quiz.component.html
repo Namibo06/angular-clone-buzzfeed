@@ -1,0 +1,29 @@
+<div class="quiz-container">
+  <div class="quiz-logo">
+    <img src="assets/images/buzzfeed-logo-buzzfeed.png" alt="logo">
+    <h3>{{title}}</h3>
+  </div><!--quiz-logo-->
+
+  <!--aqui teremos o contrário de finished,então no final quando for exibida a resposta,eles irão sumir,mas enquanto for false estarão disponiveis para vista-->
+  <div *ngIf="!finished" class="quiz-questions">
+    <h3>{{questionSelected.question}}</h3>
+  </div><!--quiz-questions-->
+
+  <div *ngIf="!finished" class="quiz-options">
+    <button
+    *ngFor="let option of questionSelected.options;let i = index"
+    (click)="playerChoose(option.alias)"
+    type="button"
+    class="btn-option"
+    >
+      {{option.name}}
+    </button>
+  </div><!--quiz-options-->
+
+  <div *ngIf="finished" class="quiz-results">
+    <h1>
+      O seu resultado é:
+    </h1>
+    <p>{{answerSelect}}</p>
+  </div><!--quiz-results-->
+</div><!--quiz-container-->

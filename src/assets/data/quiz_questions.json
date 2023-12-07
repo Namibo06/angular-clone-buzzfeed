@@ -1,0 +1,60 @@
+{
+  "title":"Você seria um milionário esbanjador ou investidor se ganhasse na Mega Sena da Virada ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual carro você teria para o dia a dia ?",
+      "options":[
+        {"id":1,"name":"Ferrari Portofino","alias":"A"},
+        {"id":2,"name":"Chevrolet S10 High Country","alias":"B"},
+        {"id":3,"name":"Lamborghini Urus","alias":"A"},
+        {"id":4,"name":"Fiat Uno com escada😂","alias":"B"},
+        {"id":5,"name":"Tesla Model X P100D","alias":"A"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Em que você investiria uma parte do dinheiro ?",
+      "options":[
+        {"id":1,"name":"Compraria empresas de cara","alias":"A"},
+        {"id":2,"name":"Investiria em renda fixa e renda variável","alias":"B"},
+        {"id":3,"name":"Faria sociedades com empresas","alias":"B"},
+        {"id":4,"name":"Gastaria em festas para comemorar","alias":"A"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "O que faria assim que ganhasse o prêmio ?",
+      "options":[
+        {"id":1,"name":"Viajaria com uma pessoa de confiança por um tempo","alias":"B"},
+        {"id":2,"name":"Contaria a amigos e familiares","alias":"A"},
+        {"id":3,"name":"Faria compras sem medir a porcentagem que poderia gastar","alias":"A"},
+        {"id":4,"name":"Investiria o dinheiro,e com o ROI compraria o que quisesse","alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Onde moraria ?",
+      "options":[
+        {"id":1,"name":"Numa Cobertura,em um condominio bem caro","alias":"A"},
+        {"id":2,"name":"Numa casa grande e solta,com bastante segurança","alias":"B"},
+        {"id":3,"name":"Numa Mansão,em um condominio bom","alias":"B"},
+        {"id":4,"name":"Em uma chácara perto da cidade","alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual porcentagem do prêmio utilizaria com gastos pessoais (sem incluir investimentos) ?",
+      "options":[
+        {"id":1,"name":"10%","alias":"B"},
+        {"id":2,"name":"40%","alias":"A"},
+        {"id":3,"name":"75%","alias":"A"},
+        {"id":4,"name":"20%","alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente seria um Milionário Esbanjador!",
+    "B": "Você muito provavelmente seria um Milionário Bem sucedido!"
+  }
+}
